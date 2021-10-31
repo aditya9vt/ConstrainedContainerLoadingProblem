@@ -1,1 +1,3 @@
-# ConstrainedContainerLoadingProblem
+# Constrained Container Loading Problem
+The objective of this project is to present a heuristic algorithm for solving a container loading problem with practical contrainst based on a real industrial application.
+The model consists of contraints such as container weight restrictions, axle weight restrictions, box weight limit, box covered surface area limit, and grouping of orders while designing the loading plan. The loading sequence is based on the rules that are designed from utilizing the dimesion and weight of boxes in the set. In the end, the algorithm provides all the generated solutions, and the pictorial representation of the solution with maximum utilization of the container. Once all the solutions are generated user can re-run the same code with different set of inputs to obtain the graphical representation of any other solution. 
