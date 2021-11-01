@@ -9,10 +9,11 @@ This problem consists of constraints such as container weight restrictions, axle
 3. Open script file (in an IDE, e.g. SPYDER): _0_ScriptFile
 4. Hit F5, and the algorithm will ask for a user-input
    - Enter '1' to run the algorithm.   
-5. The algorithm will create a 'SolutionsGroupAgg' folder inside your main folder in which the repository is cloned.
+5. Upon completion, the algorithm will create a 'SolutionsGroupAgg' folder inside your main folder in which the repository was initially cloned.
 6. The 'SolutionsGroupAgg' folders consists of:
-   - Summary File (SummaryAllSolutions.csv): All possible solutions generated and their respective volume loaded
-   - Detailed Result File (DetailsAllSolutions): It consists of the loading sequence and position of each cargo
+   - Summary File (SummaryAllSolutions.csv): all possible solutions generated and their respective volume loaded.
+   - Detailed Result File (DetailsAllSolutions): consisting of the loading sequence and position of each cargo for every solution.
    - Three pictorial representation (Plot 1, 2, 3_SolNbr = xxx) of the best solution from different angles.
-7. If you would like to see the pictorial representation of any other solution, hit F5 once again
-   - this time enter '0' then the algorithm will ask for another input. Enter the solution number for which you want to see the loading pattern
+7. If you would like to see the pictorial representation of any other solution, hit F5 again
+   - this time enter '0' then the algorithm will ask for another input. Enter the solution number for which you want to generate the loading pattern
+   - see 'Plot 1, 2, 3_SolNbr = yyy' in the folder 'SolutionsGroupAgg'
