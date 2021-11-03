@@ -13,7 +13,7 @@ This problem consists of constraints such as container weight restrictions, axle
 6. The 'SolutionsGroupAgg' folders consists of:
    - Summary File (SummaryAllSolutions.csv): all possible solutions generated and their respective volume loaded.
    - Detailed Result File (DetailsAllSolutions): consisting of the loading sequence and position of each cargo for every solution.
-   - Three pictorial representation (Plot 1, 2, 3_SolNbr = xxx) of the best solution from different angles.
+   - Three pictorial representation (Plot 1(or 2, 3)_SolNbr = xxx) of the best solution from different angles.
 7. If you would like to see the pictorial representation of any other solution, hit F5 again
    - this time enter '0' then the algorithm will ask for another input. Enter the solution number for which you want to generate the loading pattern
-   - see 'Plot 1, 2, 3_SolNbr = yyy' in the folder 'SolutionsGroupAgg'
+   - see 'Plot 1(or 2, 3)_SolNbr = yyy' in the folder 'SolutionsGroupAgg'
