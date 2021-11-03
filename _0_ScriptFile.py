@@ -64,9 +64,9 @@ if __name__ == '__main__':
   
     File_Outside = pd.ExcelFile('CLPData_Parameters.xlsx')
     CargoData_Temp = pd.read_excel(File_Outside, 'CargoData')    
-    
+        
     ContainerData_Temp = pd.read_excel(File_Outside, 'ContainerData')         
-    IncludeDisAggFlag = ContainerData_Temp['DisAggFlag'][0]               
+    IncludeDisAggFlag = 0               
             
     ######################################################## With Grouping Without Disaggregation        
     
