@@ -1,19 +1,3 @@
-'''
-
-ALGORITHM:
-    1. CargoData, DisCargoData
-    2. AggOrders, Disorders --> create CombDisOrders
-    3. for d in CombDisOrders:
-    4.  Set1     = CargoData - those cargoes that are in DisOrder 'd'
-    5.  Set2     = All cargoes that are in DisOrder d
-    6.  Set3     = {i : i in Set2 and Wti >= 20} #Change 20 to 100 later
-    7.  Set4     = Set2 - Set3
-    8.  Set5     = Set1 + Set3
-    9.  Solution = LoadCargoes(Set5)
-    10. Let l \in d be the set of orders that are present in Solution. Find cargoes from Set4 that corresponding to 'l', and load them to 'Solution'
-
-'''
-
 import pandas as pd
 import numpy as np
 import os, time
